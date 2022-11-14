@@ -56,6 +56,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4217ad341ebadf8d8e724e264f13e593e0648f5b3e94b3896a5df283be015ecc"
 
 [[package]]
+name = "json-arrays"
+version = "0.1.0"
+source = "git+https://github.com/kod-kristoff/json-arrays-rs#a1d543e8795ac50aeac59527b9aa8e38801e4ccd"
+dependencies = [
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "memchr"
 version = "2.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -163,6 +172,7 @@ version = "0.1.0"
 dependencies = [
  "eyre",
  "flate2",
+ "json-arrays",
  "quick-xml",
  "serde",
  "serde_json",

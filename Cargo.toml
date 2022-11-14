@@ -8,6 +8,7 @@ edition = "2021"
 [dependencies]
 eyre = "0.6.8"
 flate2 = "1.0.24"
+json-arrays = { git = "https://github.com/kod-kristoff/json-arrays-rs", version = "0.1.0" }
 quick-xml = "0.26.0"
 serde = { version = "1.0.147", features = ["derive"] }
 serde_json = "1.0.87"
